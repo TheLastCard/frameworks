@@ -1,10 +1,16 @@
-<html lang="no">
+﻿<html lang="no">
 <head>
-    <title>Angular 2 QuickStart</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Different frontend frameworks presented by Walter K. Dahl - Angular2</title>
 
-    <!-- 1. Load libraries -->
-    <!-- IE required polyfills, in this exact order -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../lib/foundation/css/foundation.css">
+
+    <!-- Scripts -->
     <script src="node_modules/es6-shim/es6-shim.min.js"></script>
     <script src="node_modules/systemjs/dist/system-polyfills.js"></script>
 
@@ -13,7 +19,12 @@
     <script src="node_modules/rxjs/bundles/Rx.js"></script>
     <script src="node_modules/angular2/bundles/angular2.dev.js"></script>
 
-    <!-- 2. Configure SystemJS -->
+    <!-- Foundation scripts-->
+    <script src="../lib/foundation/js/vendor/jquery.min.js"></script>
+    <script src="../lib/foundation/js/vendor/what-input.min.js"></script>
+    <script src="../lib/foundation/js/foundation.min.js"></script>
+    <script src="../lib/foundation/js/app.js"></script>
+
     <script>
         System.config({
             packages: {
@@ -28,10 +39,10 @@
     </script>
 
 </head>
-
-<!-- 3. Display the application -->
 <body>
-    <my-app>Loading...</my-app>
-</body>
 
+
+    <my-app>Loading...</my-app>
+
+</body>
 </html>
