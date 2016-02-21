@@ -1,0 +1,15 @@
+﻿{
+  "maintitle": "Frontend frameworks presented",
+  "angular1": {
+    "title": " - Angular1"
+  },
+  "angular2": {
+    "title": " - Angular2"
+  },
+  "durandal": {
+    "title": " - Durandal"
+  },
+  "react": {
+    "title": " - React"
+  }
+}
