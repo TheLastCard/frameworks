@@ -1,0 +1,25 @@
+﻿{
+  "title": "Kampanjetilbud",
+  "products": [
+    {
+      "img": "http://placehold.it/300x300",
+      "title": "Billig parfyme",
+      "price": "150,-"
+    },
+    {
+      "img": "http://placehold.it/300x300",
+      "title": "Hårføner",
+      "price": "50,-"
+    },
+    {
+      "img": "http://placehold.it/300x300",
+      "title": "Elektrisk drill",
+      "price": "300,-"
+    },
+    {
+      "img": "http://placehold.it/300x300",
+      "title": "Hammer",
+      "price": "100,-"
+    }
+  ]
+}
