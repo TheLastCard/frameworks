@@ -15,7 +15,6 @@ var ProductsShowcase = React.createClass({
     },
 
     componentDidMount: function() {
-        console.log(this.props.products);
         this.props.products.then(function(data){
             var productsArray = [];
             for(var key in data.products){
@@ -33,10 +32,12 @@ var ProductsShowcase = React.createClass({
         
         return (
             <div>
-                <div className="row column text-center">
-                    <h2>{this.state.productsTitle}</h2>
+                <div className="row text-center">
+                    <div className="small-12 columns">
+                        <h2>{this.state.productsTitle}</h2>
+                    </div>
                 </div>
-                <div className="row small-up-2 large-up-4">
+                <div className="row">
                     {this.state.productsHTML}
                 </div>
             </div>
