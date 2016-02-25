@@ -1,8 +1,8 @@
 START sass --watch scss/main.scss:css/main.css
-CD angular2
+CD public/angular2
+START npm start
+CD ../react
 START npm start
 CD ..
-CD react
-START npm start
-CD ..
+CD..
 START gulp

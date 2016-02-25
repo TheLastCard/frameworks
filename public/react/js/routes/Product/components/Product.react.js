@@ -1,5 +1,5 @@
 ﻿var React = require('react');
-var WebShopStore = require('../stores/WebShopStore.js');
+var WebShopStore = require('../../../stores/WebShopStore.js');
 
 // not using an ES6 transpiler
 var Router = require('react-router').Router
