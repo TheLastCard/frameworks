@@ -1,5 +1,5 @@
 ﻿<!doctype html>
-<html lang="no" ng-app="todoApp">
+<html lang="no">
 <head>
     <title>Different frontend frameworks presented by Walter K. Dahl - React</title>
 
@@ -16,10 +16,11 @@
     <script src="../lib/foundation/js/vendor/what-input.min.js"></script>
     <script src="../lib/foundation/js/foundation.min.js"></script>
     <script src="../lib/foundation/js/app.js"></script>
-
 </head>
 <body>
-    <div id="webshop"></div>
-    <script src="lib/app.js"></script>
+    <div id="webshop">
+      <%- reactOutput %>
+    </div>
+    <!--<script src="lib/app.js"></script>-->
 </body>
 </html>

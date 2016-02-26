@@ -1,10 +1,6 @@
 ﻿var React = require('react');
-var WebShopStore = require('../../../stores/WebShopStore.js');
+var WebShopStore = require('../stores/WebShopStore.js');
 
-// not using an ES6 transpiler
-var Router = require('react-router').Router
-var Route = require('react-router').Route
-var browserHistory = require('react-router').browserHistory;
 
 var Product = React.createClass({
     getInitialState: function(){
@@ -29,17 +25,17 @@ var Product = React.createClass({
         return (
             <div className="container">
                 <div className="row">
-				    <div className="small-12 columns">
+    			    <div className="small-12 columns">
                         <br />
-					    <img className="thumbnail" src={this.state.product.img} />
+    				    <img className="thumbnail" src={this.state.product.img} />
                         <h1>{this.state.product.title}</h1>
                         <p>{this.state.product.description}</p>
-					    <p>{this.state.product.price}</p>
-					    <a href="#" className="button expanded">Kjøp</a>
-				    </div>
+    				    <p>{this.state.product.price}</p>
+    				    <a href="#" className="button expanded">Kjøp</a>
+    			    </div>
                 </div>
             </div>
-			);
+    		);
     }
 });
 

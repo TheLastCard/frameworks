@@ -2,14 +2,12 @@
   "name": "Popular_frontend_frameworks",
   "version": "1.0.0",
   "devDependencies": {
-    "connect": "^3.4.1",
-    "gulp-nodemon": "^2.0.6",
-    "serve-static": "^1.10.2"
+    "gulp-nodemon": "^2.0.6"
   },
   "dependencies": {
+    "body-parser": "^1.15.0",
+    "ejs": "^2.4.1",
     "express": "^4.13.4",
-    "react": "^0.14.7",
-    "react-dom": "^0.14.7",
-    "react-router": "^2.0.0"
+    "node-jsx": "^0.13.3"
   }
 }
