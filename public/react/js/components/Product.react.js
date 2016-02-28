@@ -13,8 +13,8 @@ var Product = React.createClass({
             }
         }
     },
-    componentDidMount() {
-        WebShopStore.getProducts().then(function(data){
+    componentDidMount: function() {
+        WebShopStore.getProducts($).then(function(data){
             this.setState({
                 product: data.products[this.props.params.productId]
             });

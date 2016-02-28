@@ -2,7 +2,6 @@
 var path = require('path');
 var app = express();
 bodyParser = require('body-parser');
-var $ = require('./public/lib/foundation/js/vendor/jquery.min.js');
 
 // Make sure to include the JSX transpiler
 require('node-jsx').install();

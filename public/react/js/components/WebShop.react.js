@@ -6,11 +6,20 @@ var ProductsShowcase = require('./ProductsShowcase.react.js');
 
 
 var WebShop = React.createClass({
-
     getInitialState: function(){
+        console.log('WebShop -> getInitialState');
         return {
-            products: WebShopStore.getProducts()
+            products: {}
         }
+    },
+    componentDidMount: function() {
+        console.log('WebShop -> componentDidMount');
+        WebShopStore.getProducts($).then(function(data){
+            console.log('******************** data: ',data);
+            this.setState({
+                products: data.products
+            });
+        }.bind(this));
     },
 
     render: function () {

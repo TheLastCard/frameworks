@@ -30,6 +30,7 @@
 /// <reference path="../../lib/foundation/js/vendor/jquery.min.js" />
 /// <reference path="../../lib/foundation/js/vendor/what-input.min.js" />
 /// <reference path="../../lib/jquery/jquery-1.9.1.js" />
+/// <reference path="../../lib/jquery/jquery-2.2.1.js" />
 /// <reference path="../../lib/knockout/knockout-3.1.0.js" />
 /// <reference path="../../lib/require/almond-custom.js" />
 /// <reference path="../../lib/require/r.js" />

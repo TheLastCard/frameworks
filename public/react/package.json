@@ -27,7 +27,7 @@
         "babelify",
         {
           "ignore": [
-            "jquery.min.js"
+            "jquery*"
           ],
           "presets": [
             "react"

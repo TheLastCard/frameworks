@@ -4,9 +4,8 @@ var Constants = require('../constants/WebShopConstants.js');
 
 var WebShopStore = new EventEmitter();
 
-WebShopStore.getProducts = function () {
-    console.log(jquery);
-    return jquery.get(Constants.productsUrl);
+WebShopStore.getProducts = function ($) {
+    return $.get(Constants.productsUrl);
 }
 
 
